@@ -18,4 +18,7 @@ public class Temp {
 		String[] ss = str.split("-");
 		System.out.println(Arrays.toString(ss));
 	}
+	private static void test3() {
+		
+	}
 }

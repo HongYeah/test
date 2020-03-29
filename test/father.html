@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>father.html</title>
+
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<meta name="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<script type="text/javascript">
+	function fun(url){
+		window.open(url,"弹出一个窗口","width=800px,height=450px");
+	}
+</script>
+
+</head>
+
+<body>
+<!-- 注解测试 -->
+	<form name="parentform">
+		<input type="button" value="打开子窗口" onclick="fun('son.html')"><br>
+		<input type="text"  name="result">
+	</form>
+</body>
+</html>

@@ -23,6 +23,6 @@ public class Temp {
 	}
 
 	private static void test3() {
-
 	}
+	
 }
